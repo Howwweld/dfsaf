@@ -1,0 +1,47 @@
+@media screen {
+    body {
+        font-family: bahnschrift;
+        font-size: 32px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    a {
+        text-decoration: none;
+        line-height: 0;
+    }
+
+/*     .sidenav {
+        height: 100%;
+        width: 160px;
+        position: fixed;
+        background-color: #111;
+        overflow-x: hidden;
+        padding-top: 20px;
+        top: 0;
+        left: 0;
+        background-color: #111;
+    } */
+    
+    .sidenav a {
+        display: flex;
+        flex-direction: column;
+        width: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sidenav a :hover {
+        background-image: url(svg/menu/HomeAfter.svg)
+    }
+    .bg {
+        background-image: url(svg/HomeFull.svg);
+    }
+
+    .test {
+      background: red;  
+    }
+
+    .test :hover{
+        background: green;
+    }
+}
